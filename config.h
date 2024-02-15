@@ -13,7 +13,7 @@ static int borderpx = 4;
  * expects farbfeld format
  * pseudo transparency fixes coordinates to the screen origin
  */
-static const char *bgfile = "./images/lambo_01b085.ff";
+static const char *bgfile = "./images/lambo_011.ff";
 static const int pseudotransparency = 0;
 
 /*

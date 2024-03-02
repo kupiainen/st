@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMonoNerdFont-Regular.ttf:weight=light:width=condensed:spacing=proportional:size=24:antialias=true:autohint=true";
+static char *font = "JetBrainsMonoNerdFont-Regular.ttf:weight=light:spacing=proportional:size=16:antialias=true:autohint=true";
 static int borderpx = 4;
 
 /*
@@ -13,7 +13,7 @@ static int borderpx = 4;
  * expects farbfeld format
  * pseudo transparency fixes coordinates to the screen origin
  */
-static const char *bgfile = "./images/lambo_011.ff";
+static const char *bgfile = "/home/peetu/suckless/st/images/lambo_011.ff";
 static const int pseudotransparency = 0;
 
 /*

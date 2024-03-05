@@ -9,15 +9,6 @@ static char *font = "JetBrainsMonoNerdFont-Regular.ttf:weight=light:spacing=prop
 static int borderpx = 4;
 
 /*
- * background image
- * expects farbfeld format
- * pseudo transparency fixes coordinates to the screen origin
- * pois
- */
-static const char *bgfile = "/home/peetu/suckless/st/images/lambo_011.ff";
-static const int pseudotransparency = 0;
-
-/*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
  * 2: scroll and/or utmp
@@ -101,6 +92,9 @@ char *termname = "st-256color";
  *	stty tabs
  */
 unsigned int tabspaces = 4;
+
+/* bg opacity */
+float alpha = 0.94;
 
 #include "./colors/blackblue.h"
 

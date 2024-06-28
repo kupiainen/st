@@ -94,7 +94,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.96;
+float alpha = 0.97;
 
 #include "./colors/blackblue.h"
 

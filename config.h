@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMonoNerdFont-Regular.ttf:weight=light:spacing=proportional:size=16:antialias=true:autohint=true";
+static char *font = "JetBrainsMonoNerdFont-Regular.ttf:size=18:antialias=true:autohint=true";
 static int borderpx = 4;
 
 /*
@@ -53,7 +53,7 @@ int allowwindowops = 0;
  * near minlatency, but it waits longer for slow updates to avoid partial draw.
  * low minlatency will tear/flicker more, as it can "detect" idle too early.
  */
-static double minlatency = 8;
+static double minlatency = 4;
 static double maxlatency = 33;
 
 /*
